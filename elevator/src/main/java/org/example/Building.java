@@ -6,8 +6,8 @@ import java.util.*;
 class Building {
 
     protected Floor[] floors;
-    Elevator elevator;
-    int numFloors;
+    protected Elevator elevator;
+    protected int numFloors;
     private int unloadedPassengersCount = 0;
     private int currentFloor = 1;
     private List<Passenger> elevatorPassengers = new ArrayList<>();
