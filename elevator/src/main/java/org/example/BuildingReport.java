@@ -17,7 +17,6 @@ public class BuildingReport {
 
         int currentFloor = building.getCurrentFloor();
         boolean isElevatorGoingUp = building.isElevatorGoingUp();
-  //      boolean isElevatorGoingUp = .isElevatorGoingUp();
 
         for (int i = building.getNumOfFloors() - 1; i >= 0; i--) {
             String direction = (i == currentFloor-1) ? (isElevatorGoingUp ? "^" : "v") : " ";

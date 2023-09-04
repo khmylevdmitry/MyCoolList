@@ -16,10 +16,6 @@ public class Passenger {
         this.destinationFloor = destinationFloor;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Passenger [destinationFloor=" + destinationFloor + "]";
-//    }
 }
 
 
